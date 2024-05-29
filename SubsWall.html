@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="SubWall.css">
+    <title>K GYM </title>
+</head>
+<body>
+  <!-- The content that will be hidden behind the paywall -->
+  <div id="content" style="display:none;">
+    <h1>Welcome to our premium content!</h1>
+    <p>Thank you for supporting us by subscribing.</p>
+  </div>
+
+  <!-- The paywall that will be shown if the user has not paid -->
+  <div class="paywall-container" id="paywall">
+    <div class="paywall-header">
+      <h2>Subscribe to access premium content</h2>
+    </div>
+    <div class="paywall-content">
+      <p>Get access to exclusive content, discounts, and more by subscribing to our premium plan.</p>
+      <button class="paywall-button" id="subscribe-button">Subscribe Now</button>
+    </div>
+    <div class="paywall-footer">
+      <p>By subscribing, you agree to our terms and conditions.</p>
+    </div>
+  </div>
+  <script src="paywall.js"></script>
+</body>
+</html>

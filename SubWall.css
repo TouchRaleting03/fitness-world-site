@@ -1,0 +1,77 @@
+/* Paywall container */
+.paywall-container {
+    background-color: #212121; /* Dark gray background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 400px; /* Adjust the width to your liking */
+    margin: 40px auto;
+  }
+  
+  /* Paywall header */
+  .paywall-header {
+    background-color: #333; /* Darker gray background */
+    padding: 10px;
+    border-bottom: 1px solid #444;
+    text-align: center;
+  }
+  
+  .paywall-header h2 {
+    color: #fff; /* White text */
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Paywall content */
+  .paywall-content {
+    padding: 20px;
+  }
+  
+  .paywall-content p {
+    color: #ccc; /* Light gray text */
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Paywall buttons */
+  .paywall-button {
+    background-color: #444; /* Dark gray button */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .paywall-button:hover {
+    background-color: #555; /* Darker gray button on hover */
+  }
+  
+  /* Paywall pricing table */
+  .paywall-pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .paywall-pricing-table th, .paywall-pricing-table td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .paywall-pricing-table th {
+    background-color: #333; /* Darker gray background */
+    color: #fff; /* White text */
+  }
+  
+  .paywall-pricing-table td {
+    color: #ccc; /* Light gray text */
+  }
+  
+  /* Paywall footer */
+  .paywall-footer {
+    background-color: #333; /* Darker gray background */
+    padding: 10px;
+    text-align: center;
+    color: #fff; /* White text */
+  }
